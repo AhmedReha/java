@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   ul,ol{
+      list-style: none;
+   }
+   a{
+       text-decoration: none;
+   }
+   .container{
+       width:1110px;
+       margin: auto;
+   }
+   .align-center{
+   align-items: center;
+   }
+   .row{
+   display: flex;
+   flex-wrap: wrap;
+   }
+
+   .light{
+    background-color:#888;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .light button{
+    
+    padding: 10px 30px;
+    border: none;
+    cursor:pointer;
+    
+    }
+    .count{
+        background: #ccc;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .count button, .count input{
+        padding: 10px 30px;
+        cursor:pointer;
+        text-align: center;
+    }
+
+    .clr{
+        background: #888;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clr button{
+        padding: 10px 30px;
+        cursor:pointer;
+        text-align: center;
+        border: none;
+    }
+   
